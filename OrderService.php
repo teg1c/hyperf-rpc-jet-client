@@ -13,7 +13,6 @@ use Hyperf\Rpc\Contract\TransporterInterface;
  */
 class OrderService extends AbstractClient
 {
-    // 定义 `CalculatorService` 作为 $service 参数的默认值
     public function __construct(
         string $service = 'OrderService',
         TransporterInterface $transporter = null,
